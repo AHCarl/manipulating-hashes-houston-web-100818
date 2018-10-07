@@ -13,8 +13,7 @@ def first_challenge
     }
   }
 
-  contacts["Jon Snow"][:favorite_icecream_flavors].map do |f|
-    
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if {|v| v == "strawberry"}
 
 
   #remember to return your newly altered contacts hash!
