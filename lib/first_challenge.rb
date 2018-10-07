@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-  contacts["Jon Snow"][:favorite_icecream_flavors].each do |f|
+  contacts["Jon Snow"][:favorite_icecream_flavors].map do |f|
     
 
 
